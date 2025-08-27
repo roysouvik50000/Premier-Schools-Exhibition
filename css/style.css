@@ -285,6 +285,10 @@ header img {
     animation-play-state: paused;
 }
 
+.slider-track-mid:hover {
+    animation-play-state: paused;
+}
+
 .hero-form {
     background: rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -983,6 +987,7 @@ header img {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: start;
+        margin-top: 30px;
     }
 
     .hero-content h1 span {
@@ -1232,6 +1237,21 @@ header img {
         background-color: #2d0a58;
     }
 
+    /* participating school */
+
+    .logo-item {
+        flex: 0 0 100px;
+        height: 60px;
+        margin: 0 20px;
+        background: white;
+        border: 1px solid rgb(119, 119, 119);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        transition: transform 0.3s ease;
+    }
+
     /* achievements */
 
     .achievements .container {
@@ -1239,6 +1259,7 @@ header img {
         padding-bottom: 20px;
     }
 
+    /* exhibition */
     .exhibition {
 
         margin: 0;
@@ -1357,6 +1378,7 @@ header img {
     .footer-logo img {
         width: 70px;
     }
+
 
     /* ===== appointment Section ===== */
     .appointment {
